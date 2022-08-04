@@ -1,0 +1,28 @@
+{
+  "name": "js-ipfs-unixfs-offset-chunker",
+  "version": "1.0.0",
+  "description": "A custom chunker for UnixFS which uses offsets to split a stream of data into chunks. Useful for fine grained deduplication.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/js-ipfs-unixfs-offset-chunker.git"
+  },
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/js-ipfs-unixfs-offset-chunker/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/js-ipfs-unixfs-offset-chunker#readme",
+  "dependencies": {
+    "bl": "^5.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "tape": "^5.5.3"
+  }
+}
